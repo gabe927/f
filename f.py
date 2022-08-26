@@ -14,6 +14,7 @@ def run():
 print("Press F to start paying respects")
 keyboard.wait('f')
 print("Paying respects")
+print("Press Esc to stop paying respects")
 
 # start run thread
 t = threading.Thread(target=run)
